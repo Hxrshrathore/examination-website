@@ -1,0 +1,143 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1976d2;
+    color: #fff;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+h2, h3, p {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quiz-question {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-question label {
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.quiz-question input[type="radio"] {
+    margin-right: 10px;
+}
+
+.image-placeholder {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#quiz-timer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffeb3b;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 2px solid #fbc02d;
+    z-index: 1000;
+}
+
+.submit-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.submit-section button:hover {
+    background-color: #1565c0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1976d2;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+    margin-top: auto;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .quiz-question {
+        padding: 10px;
+    }
+
+    .submit-section button {
+        padding: 12px 18px;
+        font-size: 16px;
+    }
+}
