@@ -72,7 +72,7 @@ examination-website/
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/examination-website.git
+    git clone https://github.com/Hxrshrathore/examination-website.git
     ```
 
 2. **Navigate to the Project Directory**:
